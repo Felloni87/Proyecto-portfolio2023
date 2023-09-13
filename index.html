@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio de Maria Eugenia Felloni, realizado para mostrar las habilidades y experiencia adquirida en el curso de front de ADA, hecho especificamente en HTML y CSS"> 
+    <meta name="Keywords" content="portfolio, html, css, skill"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria Eugenia Felloni">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="imagenes/548-5488592_foco-dibujo-png-sky-on-demand-logo-transparent.png">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header">
+        <nav class="menu">
+            <ul>
+                <li><a  class= "menuHorizontal" href="#inicio"></a>Inicio</li>
+                <li><a  class= "menuHorizontal" href="#onocimientos"></a>Mis Conocimientos</li>
+                <li><a  class= "menuHorizontal" href="#contacto"></a>Contacto</li>
+            </ul>
+        </nav>
+
+        <section id="inicio" class="contenedor-inicio">
+            <div class="imagen-inicio">
+                <img class="animate__animated animate__backInLeft" src="./imagenes/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg" alt="Foto de Nick Morrisonn Unsplash">
+            </div>
+            <div  class="texto-inicio">
+                <h1 class="animate__animated animate__backInRight">María Eugenia Felloni</h1>
+                <h2 class="animate__animated animate__backInRight">Bienvenidos a mi Portfolio</h2>
+                
+
+            </div>
+            
+        </section>
+        <div class="boton">
+            <button><a href="#conocimientos">Siguiente</a></button>
+            
+        </div>
+    </header>   
+    <main>
+        <section id="conocimientos" class="contenedor-conocimientos">
+            <div class="texto-conocimientos">
+                <p>Durante el último año, tuve la oportunidad de sumergirme en el fascinante mundo del desarrollo. <br>Mi compromiso y mi pasión por la tecnología me llevaron a embarcarme en un emocionante viaje de aprendizaje. <br>
+                  A lo largo de este período, he adquirido las siguientes habilidades <br>
+                </p>
+            </div>
+
+             <div class="contenedor-iconos">
+
+                 <div  class="icono">
+                    <a href="https://dev.java/learn/">
+                        <img src="./iconos/java.png" alt="icono-java">
+                    </a>    
+                </div>
+
+
+                <div class="icono">
+                    <a href="https://learn.microsoft.com/es-es/dotnet/csharp/">
+                        <img src="./iconos/c-sharp.png" alt="icono-c#">
+                    </a>        
+                </div>
+
+                <div class="icono"> 
+                    <a href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">
+                        <img src="./iconos/html-5.png" alt="icono-html">
+                    </a>    
+                </div>
+
+                 <div class="icono">
+                    <a href="https://developer.mozilla.org/es/docs/Web/CSS">
+                        <img src="./iconos/css-3.png" alt="icono-css">
+                    </a>
+                </div>
+
+                <div class="icono">
+                    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+                        <img src="./iconos/js.png" alt="icono-js">
+                    </a>
+                </div>
+
+                 <div class="icono">
+                    <a href="https://git-scm.com/doc">
+                        <img src="./iconos/git.png" alt="icono-git">
+                    </a>
+                 </div>
+
+                 <div class="icono">
+                    <a href="https://docs.github.com/es">
+                        <img src="./iconos/github.png" alt="icono-github">
+                    </a>
+                 </div>
+
+                 <div class="icono">
+                    <a href="https://learning.postman.com/docs/introduction/overview/">
+                        <img src="./iconos/postman.png" alt="icono-postman ">
+                     </a>
+                 </div>
+
+            </div>
+
+        </section>
+
+    <section id="contacto" class="contenedor-contacto">
+        <div class="contactame">
+            <h3>Contactame</h3>
+            <p>"Me queda mucho camino por recorrer, pero hoy estoy un poco mas cerca que ayer"</p>
+            <ul class="redes-sociales">
+                <li><a href="https://github.com/Felloni87">
+                         <i class="fa-brands fa-github-alt"></i>
+                    </a>Felloni87
+                </li>
+                <li><a href="https://www.linkedin.com/in/mariaeugeniafelloni/">
+                         <i class="fa-brands fa-linkedin"></i>
+                    </a>Maria Eugenia Felloni
+                </li>
+                <li><a href="">
+                    <i class="fa-solid fa-envelope"></i>
+                    </a> eugef_87@hotmail.com
+                </li>
+             </ul>
+
+        </div>
+
+
+        <div class="escribime">
+           <h3>Escribime</h3>
+            <div class="formulario">
+                <form class="formularioContacto">
+                    <div class="campo nombre">
+                        <label>Nombre:*</label> 
+                        <input class="input-nom-ape"
+                        type="text"  
+                        name="nombre" 
+                        placeholder="p. ej: Maria Eugenia" 
+                        id="idnombre" 
+                        maxlength="20"
+                        aria-label="Nombre"
+                        required  />
+                    </div>
+
+                    <div class="campo apellido">
+                        <label for="idapellido">Apellido:*</label>
+                        <input class="input-nom-ape" 
+                        type="text"
+                        name="apellido"
+                        placeholder="p. ej: Felloni" 
+                        id="idapellido"
+                        aria-label="Apellido"
+                        required />
+                    </div>
+
+                    <div class="campo email">
+                        <label for="idemail">Email:*</label>
+                        <input class="inputEmail" 
+                        type="email" 
+                        name="email" 
+                        placeholder="p. ej: eugef_87@hotmail.com" 
+                        id="idemail"
+                        aria-label="Email"
+                        required />
+                    </div>
+
+                    <div class="campo mensaje">
+                        <label for="idmensaje">Mensaje:*</label>
+                        <textarea class="inputMensaje" 
+                        name="mensaje" 
+                        placeholder="Escríba un mensaje aquí." 
+                        id="idmensaje" 
+                        aria-label="Mensaje"
+                        cols="30" 
+                        rows="10"
+                        required ></textarea>
+                    </div>
+
+                    <button type="submit" class="boton-contacto">
+                    Enviar
+                    </button>
+                </form>  
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+
+        <nav class="footerNav">
+            <ul>
+              <li><a class="menu-horizontal-footer" href="#inicio">Inicio</a></li>
+              <li><a class="menu-horizontal-footer" href="#conocimientos">Conocimientos</a></li>
+              <li><a class="menu-horizontal-footer" href="#contacto">Contacto</a></li>
+            </ul>
+          </nav>
+
+          <ul class="iconos-redes-footer">
+            <li class="itemIcono-footer"> 
+              <a class="circuloIconoFooter" href="">
+                 <i class="fa-brands fa-twitter"></i>
+             </a>
+            </li>
+        
+            <li class="itemIcono-footer"> 
+              <a class="circuloIconoFooter" href="https://github.com/Felloni87">
+                 <i class="fa-brands fa-github-alt"></i>
+             </a>
+            </li>
+        
+            <li class="itemIcono-footer"> 
+              <a class="circuloIconoFooter" href="https://linkedin.com/in/mariaeugeniafelloni">
+                 <i class="fa-brands fa-linkedin-in"></i>
+             </a>
+            </li>
+        
+            <li class="itemIcono-footer"> 
+              <a class="circuloIconoFooter" href="">
+                 <i class="fa-solid fa-envelope"></i>
+             </a>
+            </li>
+          </ul>
+
+    </footer>
+</main>
+
+<script src="https://kit.fontawesome.com/bff1749783.js" crossorigin="anonymous"></script>
+</body>
+</html>

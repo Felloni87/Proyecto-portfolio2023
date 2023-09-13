@@ -1,0 +1,569 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Mobile firt */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:white;
+    
+}
+header{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    } 
+ .menu{
+    height: 3rem;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}  
+nav ul {
+    list-style: none;
+} 
+nav ul li{
+    font-size: 10px;;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color:#fff;  
+}
+nav ul li:hover {
+    color: #57555a;
+    transition: color 0.3s; 
+}
+.inicio{
+    width: 100vw;
+    align-items: center;
+}
+.contenedor-inicio{  
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column-reverse;
+    width: 100vw;
+    height: 100vh;
+}
+img{
+    width: 100%;
+}
+.texto-inicio{
+    width: 90%;
+    margin: 20px;
+    padding:20px;
+}
+h1{
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    color:#333;
+}
+h2{
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    color:#333;
+}
+.boton {
+    text-align: center;
+    position:relative;
+    top:-130px;
+}
+.boton button{
+    width: 40%;
+    background-color: #333;
+    border-radius: 50px;
+}
+.boton a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Roboto';
+}
+.contenedor-conocimientos{
+    background-color: #333;
+    width: 100vw;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.texto-conocimientos{
+    width: 90%;
+    color:#fff;
+    padding:10px;  
+}
+.contenedor-iconos{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icono{
+    width: 50%;
+    padding: 30px;
+}
+.icono img{
+    width: 100%; 
+}
+.contenedor-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    background-color: #333;
+    color: #fff;
+    margin: 0, 20px;
+    padding: 20px;
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
+.contenedor-contacto h3{
+    color:#fff;
+    font-family: 'Roboto';
+      
+}
+.contenedor-contacto p {
+    margin: 20px;
+}
+.redes-sociales{
+    list-style: none;
+}
+.redes-sociales li{
+    margin-bottom: 10px;
+}
+.redes-sociales i{
+    font-size: 1rem;
+    color:#fff;
+}
+.formulario{
+    width: 90vw;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+.formulario button{
+    width: 80px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    font-size: 1rem;
+    color: #fff;
+}
+footer{
+    background: #333;
+    text-align: center; 
+    padding: 20px 0;
+}
+.footerNav{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.menu-horizontal-footer:hover{
+    color: #57555a;
+ }
+.iconos-redes-footer{
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+}
+.iconos-redes-footer i {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px; 
+}
+.menu-horizontal-footer{
+    text-decoration: none;
+    color: white;
+}
+.iconos-redes-footer{
+    display: flex;
+}    
+.iconos-redes-footer i{
+    justify-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    color:#333
+} 
+.iconos-redes-footer i:hover {
+    color:darkgray; 
+    transition: color 0.3s; 
+}
+.itemIcono-footer {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+}
+.circuloIconoFooter{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+.itemIcono-footer:hover {
+    background-color: #57555a; /* Cambia el fondo del ícono al hacer hover */
+    transition: background-color 0.3s; /* Agrega una transición suave al cambio de fondo */
+    color: #fff; /* Cambia el color del ícono al hacer hover */
+}
+
+/* MEDIA QUERY TABLET */
+
+@media (min-width: 768px) {
+
+    .contenedor-inicio{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+     }  
+     .imagen-inicio {
+        flex: 1; 
+        height: 100vh;      
+     }
+     img {
+        width: auto;
+        height: 93%;
+        border-top-right-radius: 90%; 
+        border-bottom-right-radius: 90%; 
+        position: relative;
+        z-index: 1; 
+     }  
+     .texto-inicio {
+        flex: 1; 
+        padding: 20px;  
+        position: relative;
+        z-index: 2;
+        margin-left: -150px; 
+        background: linear-gradient(
+        50deg,
+        rgba(255, 255, 255, 0.4) 12%,
+        rgba(255, 255, 255, 0.1) 77%,
+      );
+      background-blend-mode: lighten;
+      box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+     }  
+     h1{
+        font-size: 5rem;
+        text-shadow: 20px 0px 7px #fff;
+     }
+     .boton {
+        text-align: center;
+        position:relative;
+        z-index: 3;
+        top:-130px;
+    }
+    .boton button{
+        width: 10%;
+        background-color: #333;
+        border-radius: 50px;
+        position: relative;
+        z-index: 1;
+    }
+    .boton a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+        font-family: 'Roboto';
+        position: relative;
+        z-index: 2;
+    }
+
+    .contenedor-conocimientos {
+        width: 100vw;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+     .texto-conocimientos {
+        width: 100%; 
+        margin: 20px;
+        padding: 20px; 
+    }
+    .contenedor-iconos {
+        width: 100%;
+        align-items: center;
+    }
+    .icono {
+        width: 20%; 
+        padding: 20px; 
+        margin: 2%;
+    } 
+     .contenedor-contacto {
+        display: flex; 
+        flex-direction: row; 
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #333;
+        color: #fff;
+        margin: 20 0px; 
+        padding: 20px;
+        font-family: 'Roboto';
+        font-size: 1rem;
+    } 
+    .contactame{
+        width: 50%;
+        height: 100vh;
+        color: #fff;
+        padding: 20px;   
+    }
+    .contactame h3, .escribime h3{
+        font-size: 3rem;
+    }
+    .escribime{
+        width: 50%;
+        height: 100vh;
+        padding: 20px;
+    }
+    .contenedor-contacto p {
+        margin: 20px;
+    } 
+    .redes-sociales li {
+        margin-right: 10px; 
+    } 
+    .redes-sociales i {
+        font-size: 2rem;
+        color: #fff;
+    } 
+     .formulario {
+       background: #333;
+        width: 100%; 
+        height: 70%;
+        margin-top: 20px;   
+    } 
+    .formularioContacto{
+        height: 100%;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.29);
+         display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+    }
+    .formulario button {
+        width: 80px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.29);
+        font-size: 1rem;
+        color: #fff;
+    }
+    .menu-horizontal-footer{
+        font-size: 1rem;
+    }
+    .menu-horizontal-footer:hover{
+        color: #57555a;
+     }
+     .itemIcono-footer:hover {
+        background-color: #57555a; /* Cambia el fondo del ícono al hacer hover */
+        transition: background-color 0.3s; /* Agrega una transición suave al cambio de fondo */
+        color: #fff; /* Cambia el color del ícono al hacer hover */
+    }
+
+}
+
+/* MEDIA QUERY DESKTOP */
+
+@media (min-width: 1024px) {
+
+ .menu{
+    font-size: 2rem;
+ }   
+ .contenedor-inicio{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+ }  
+ .imagen-inicio {
+    flex: 1; 
+    height: 100vh;      
+ }
+ img {
+    width: auto;
+    height: 93%;
+    border-top-right-radius: 90%; 
+    border-bottom-right-radius: 90%; 
+    position: relative;
+    z-index: 1; 
+ }  
+ .texto-inicio {
+    flex: 1; 
+    padding: 20px;  
+    position: relative;
+    z-index: 2;
+    margin-left: -150px; 
+    background: linear-gradient(
+    50deg,
+    rgba(255, 255, 255, 0.4) 12%,
+    rgba(255, 255, 255, 0.1) 77%,
+  );
+  background-blend-mode: lighten;
+  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+ }  
+ h1{
+    font-size: 5rem;
+    text-shadow: 20px 0px 7px #fff;
+ }
+ .boton {
+    text-align: center;
+    position:relative;
+    z-index: 3;
+    top:-130px;
+}
+.boton button{
+    width: 10%;
+    background-color: #333;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+}
+.boton a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Roboto';
+    position: relative;
+    z-index: 2;
+}
+.contenedor-conocimientos {
+    width: 100vw;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+ .texto-conocimientos {
+    width: 100%; 
+    margin: 20px;
+    padding: 20px; 
+}
+.contenedor-iconos {
+    width: 100%;
+    align-items: center;
+}
+.icono {
+    width: 20%; 
+    padding: 20px; 
+    margin: 2%;
+} 
+ .contenedor-contacto {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    margin: 20 0px; 
+    padding: 20px;
+    font-family: 'Roboto';
+    font-size: 1rem;
+} 
+.contactame{
+    width: 50%;
+    height: 100vh;
+    color: #fff;
+    padding: 20px;   
+}
+.contactame h3, .escribime h3{
+    font-size: 3rem;
+}
+.escribime{
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+}
+.contenedor-contacto p {
+    margin: 20px;
+} 
+.redes-sociales li {
+    margin-right: 10px; 
+} 
+.redes-sociales i {
+    font-size: 2rem;
+    color: #fff;
+} 
+ .formulario {
+   background: #333;
+    width: 100%; 
+    height: 70%;
+    margin-top: 20px;   
+} 
+.formularioContacto{
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+.formulario button {
+    width: 80px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    font-size: 1rem;
+    color: #fff;
+}
+.menu-horizontal-footer{
+    font-size: 1rem;
+}
+.menu-horizontal-footer:hover{
+    color: #57555a;
+ }
+ .itemIcono-footer:hover {
+    background-color: #57555a; /* Cambia el fondo del ícono al hacer hover */
+    transition: background-color 0.3s; /* Agrega una transición suave al cambio de fondo */
+    color: #fff; /* Cambia el color del ícono al hacer hover */
+}
+} 
