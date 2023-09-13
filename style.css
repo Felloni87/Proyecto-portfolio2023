@@ -146,20 +146,6 @@ h2{
     font-size: 1rem;
     color:#fff;
 }
-/* .formulario{
-    width: 90vw;
-    margin-top: 20px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.29);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around; 
-} */
 .formulario {
     background: #333;
      width: 100%; 
@@ -254,9 +240,9 @@ footer{
     align-items: center;
 }
 .itemIcono-footer:hover {
-    background-color: #57555a; /* Cambia el fondo del ícono al hacer hover */
-    transition: background-color 0.3s; /* Agrega una transición suave al cambio de fondo */
-    color: #fff; /* Cambia el color del ícono al hacer hover */
+    background-color: #57555a; 
+    transition: background-color 0.3s; 
+    color: #fff; 
 }
 
 /* MEDIA QUERY TABLET */
@@ -422,11 +408,10 @@ footer{
         color: #57555a;
      }
      .itemIcono-footer:hover {
-        background-color: #57555a; /* Cambia el fondo del ícono al hacer hover */
-        transition: background-color 0.3s; /* Agrega una transición suave al cambio de fondo */
-        color: #fff; /* Cambia el color del ícono al hacer hover */
+        background-color: #57555a; 
+        transition: background-color 0.3s; 
+        color: #fff; 
     }
-
 }
 
 /* MEDIA QUERY DESKTOP */
@@ -592,8 +577,8 @@ footer{
     color: #57555a;
  }
  .itemIcono-footer:hover {
-    background-color: #57555a; /* Cambia el fondo del ícono al hacer hover */
-    transition: background-color 0.3s; /* Agrega una transición suave al cambio de fondo */
-    color: #fff; /* Cambia el color del ícono al hacer hover */
+    background-color: #57555a; 
+    transition: background-color 0.3s; 
+    color: #fff; 
 }
 } 
